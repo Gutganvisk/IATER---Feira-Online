@@ -1,6 +1,6 @@
-# React + Vite
+# IATER - Feira Online
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O desenvolvimento é para um web site de market place para ajudar agricultores e feirantes a encontrarem clientes mais rapido.
 
 Currently, two official plugins are available:
 
