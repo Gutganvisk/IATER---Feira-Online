@@ -1,5 +1,41 @@
 .nav {
-    background-color: #da4d4d;
+    background-color: #ffffff;
     padding: 1rem;
     border-bottom: 1px solid #ccc;
+}
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-search {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.nav-links {
+    display: flex;
+    gap: 1rem;
+}
+.nav-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+.nav-user {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.nav-link:hover {
+    color: #525252;
+}
+.nav-user .nav-link {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.nav-user .nav-link:hover {
+    color: #525252;
 }

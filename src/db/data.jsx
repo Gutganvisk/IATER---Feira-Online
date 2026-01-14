@@ -109,6 +109,17 @@ const data = [
         regiao: "Santa Catarina, SC",
         contato: "(47) 98765-4321"
     },
+    {
+        id: 11,
+        title: "Morango",
+        categoria: "Frutas",
+        price: "R$ 6,00/kg",
+        image: "https://example.com/images/morango.jpg",
+        produtor: "Carlos Santos",
+        reviews: 90,
+        regiao: "Minas Gerais, MG",
+        contato: "(31) 99876-5432"
+    }
 ];
 
 export default data;
