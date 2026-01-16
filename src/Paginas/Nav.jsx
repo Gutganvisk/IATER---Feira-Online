@@ -1,23 +1,29 @@
-import { FaUser, FaShoppingCart } from "react-icons/fa";
+import { FaUser} from "react-icons/fa";
 import logo from "../assets/logo.svg";
 import "./Nav.css";
+import "../components/Buttons.css";
 
 function Nav() {
-    return <nav>
-        <div className="nav-container">
-            <a href="/home" className="nav-link"><img src={logo} alt="Logo" /></a>
-            <input type="text" placeholder="Buscar produtos..." className="nav-search" />
-            <div className="nav-links">
-                <a href="/categorias" className="nav-link">Categorias</a>
-                <a href="/regiao" className="nav-link">Região</a>
-                <a href="/produtos" className="nav-link">Produtos</a>
+    return (
+        <nav className="nav">
+            <div className="container nav-container">
+                <a className="nav-logo">
+                    <img src={logo} alt="IATER" />
+                </a>
+
+                <div className="nav-links">
+                    <a>Categorias</a>
+                    <a>Região</a>
+                    <a>Produtos</a>
+                </div>
+                <div className="nav-actions">
+                    <a className="btn btn-primary">
+                        <FaUser />Login</a>
+                    <a className="btn btn-outline">Cadastro</a>
+                </div>
             </div>
-            <div className="nav-user">
-                <a href="/login" className="nav-link"><FaUser /> Login</a>
-                <a href="/carrinho" className="nav-link"><FaShoppingCart /> Carrinho</a>
-            </div>
-        </div>
-    </nav>;
+        </nav>
+    );
 }
 
 export default Nav;

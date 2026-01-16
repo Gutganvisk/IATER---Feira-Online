@@ -1,0 +1,50 @@
+/* BOTÕES BASE */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-weight: 600;
+    padding: 0.5rem 1.1rem;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+/* BOTÃO VERDE (LOGIN) */
+.btn-primary {
+    background-color: #186102;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #4d4d4d;
+}
+
+/* BOTÃO VERDE CONTORNO (CADASTRO) */
+.btn-outline {
+    border: 1.5px solid #186102;
+    color: #186102;
+    background: transparent;
+}
+
+.btn-outline:hover {
+    background-color: #186102;
+    color: white;
+}
+.btn-buy {
+    margin-top: 12px;
+    font-weight: bold;
+    align-self: flex-start;
+    padding: auto;
+    border-radius: 999;
+    display: block;
+    background-color: white;
+    color: #000000;
+    border: none;
+    height: auto;
+    cursor: pointer;
+}
+.btn-buy:hover {
+    background-color: #f50909;
+    color: white;
+}
